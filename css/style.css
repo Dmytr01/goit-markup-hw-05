@@ -680,7 +680,7 @@ address {
   height: 120px;
   padding: 8px 16px;
   background-color: transparent;
-  color: var(--navyblue-modal);
+  color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   margin-top: 4px;
   font-size: 12px;
@@ -789,6 +789,12 @@ address {
   outline: none;
 }
 
+input[type="checkbox"]:checked+.modal-form-desc .agreement-checkbox {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
+}
+
 .checkbox-modal {
   width: 16px;
   height: 16px;
@@ -803,7 +809,8 @@ address {
   border-radius: 2px;
   width: 16px;
   height: 16px;
-  fill: #f4f4fd;
+  fill: transparent;
+  /* fill: #f4f4fd; */
   margin-right: 5px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
