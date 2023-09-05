@@ -627,6 +627,81 @@ address {
 .modal-btn:focus .modal-btn-icon {
   fill: #FFF;
 }
+/*  */
+.footer-form {
+  margin-left: 80px;
+}
+
+.label-footer {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-form-tag {
+  display: flex;
+  gap: 24px;
+  align-items: baseline;
+}
+
+.footer-label {
+  display: flex;
+  align-items: flex-end;
+}
+
+.input-footer {
+  border-radius: 4px;
+  margin-top: 16px;
+  border: 1px solid var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  width: 264px;
+  color: var(--white);
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+}
+
+.input-footer::placeholder {
+  color: var(--white);
+}
+
+.telegram-icon-svg {
+  margin-left: 16px;
+}
+
+.footer-form-button {
+  display: flex;
+  border: none;
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  margin-left: 24px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background-color: var(--iris);
+  color: var(--white);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  /* 150% */
+  letter-spacing: 0.04em;
+
+}
+
+
+
 
 
 /* PORTFOLIO */
