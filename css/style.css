@@ -16,7 +16,7 @@
   --white: #ffffff;
   --slate: #434455;
   --dairy: #fcfcfc;
-  --navyblue-modal: #rgba(46, 47, 66, 0.40);
+  --navyblue-modal: #rgba(46, 47, 66, 0.4);
   --light-slate: #8E8F99;
 }
 
@@ -663,6 +663,7 @@ address {
   outline: transparent;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-input:focus {
