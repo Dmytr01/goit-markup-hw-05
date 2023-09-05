@@ -704,7 +704,7 @@ input{
   color: var(--light-slate);
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
 }
 
 .modal-form-texarea-cont {
